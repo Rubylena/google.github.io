@@ -3,78 +3,107 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Google</title>
-    <link rel="shortcut icon" href="/img/iconfinder_new-google-favicon_682665.svg" type="image/x-icon">
-    <link rel="stylesheet" href="style.css">
+    <title>Effiong Grace</title>
+    <link rel="shortcut icon" href="img/google-g-sketched-social-letter-outline-symbol.svg" type="image/x-icon">
+    <link rel="stylesheet" href="main.css">
+    <link href="https://fonts.googleapis.com/css2?family=Anton&family=Pacifico&family=Roboto:wght@400;900&display=swap" rel="stylesheet">
 </head>
 <body>
-        <div class="navbar">
-            <p class="nav-item">Gmail</p>
-            <p class="nav-item">Images</p>
-            <img class="nav-item nav-icon" src="img/menu_icon.png" alt="menu icon" />
-            <img class="nav item round-circle" src="img/Annotation 2020-03-30 234310.jpg" />
+    <!-- container -->
+    <div class="container">
+
+        <!-- header section -->
+        <header>
+            <h1>Effiong Grace</h1>
+
+                <!-- Contact info -->
+                <div class="link">
+
+                    <a class="social-icon" href="#"><img src="img/call.svg" alt="phone">        +2348136285533</a>
+
+                    <a class="social-icon" href="https://twitter.com/Rubiy_le"> <img src="img/twitter.svg" alt="Twitter"> </a>
+                    
+                    <a class="social-icon" href="https://www.linkedin.com/in/grace-effiong-461033141/"> <img src="img/linkedin.svg" alt="Linkedin"> </a>
+                    
+                    <a class="social-icon" href="https://www.instagram.com/ruby_lenaa/"> <img src="img/instagram.svg" alt="Instagram"> </a>
+                    
+                    <a class="social-icon" href="https://www.facebook.com/grace.effiong.357"> <img src="img/Facebook.svg" alt="facebook"> </a>
+                </div>
+                <p> </p>
+        </header>
+
+        <!-- main body of page -->
+        <div id="first-section">
+            <img class="profile-img" src="img/Untitled.png" alt="Profile picture">
+
+            <!-- About myself section -->
+            <section id="section-1">
+                <h2>About Myself</h2>
+                <p> Here is a little about myself</p>
+                <p> &diams; I am based in Cross River State, Calabar to be precise . . . (It's definitely a beautiful city).</p>
+                <p> &diams; I attained my first degree at the University of Calabar, Calabar and currently a postgraduate student.</p>
+                <p> &diams; Birth Date: 21, December.</p>
+                <p> &diams; Address: 15 Nkonib layout, Ikot Ansa Calabar, Cross River State.</p>
+                <p> &diams; Slack Id: Ruby</p>
+            </section>
         </div>
-        <!-- google icon and share icon-->
-    <main>
-        <div class="icon">
-            <div>
-            <img src="img/thank-you-emergency-services-workers-6753651837108755-law.gif" alt="google icon">
-            </div>
 
-            <div>
-            <img class="icon-2" src="img/share.png" alt="search">
-            </div>
-        </div>
+                  <!-- What you need to know section -->
+        <div>
+            <section id="section-2">
+                <h2>What you need to know</h2>
+                <p>Am an intern software developer with intermediate knowledge in C#, HTML, CSS and JavaScript.</p><br>
+                
+                <h3>Interests</h3>
+                <p>I am a quick learner and a bibliophile, an introvert yet loves making friends.</p>
+                <p>I take interest in community services that aid the society and sustains my expenses.</p><br> <!--space in between paragraph-->
 
-        <!-- search bar -->
-        
-        <div class="section"> 
-            <div class="search">
+                <h3>Hobbies</h3>
+                <p>Physical activities like football, running and exercise.</p>
+                <p>Games like Scrabble, Chess and card games.</p>
+                <p>Traveling</p>
+            </section>    
+        </div> 
+           
+            <!-- to adjust or neutralize float action -->
+            <div class="space"></div>
 
-            <div>
-                <img class="search-sym" src="img/desktop_searchbox_sprites302_hr.png" alt="search icon">
-            </div>
+            <!-- Contact form -->
+            <section id="bottom-section">
+                <hr>
+                <h2>Get in touch</h2>
+                <p>Contact me via email at <strong> graceffiong@gmail.com</strong> or using the form below to make enquiries.</p>
 
-            <div>
-            <input class="search-bar" type="text" name="search" id="search">
-            </div> 
-            
-            <div>
-            <img class="search-voice" src="img/voice icon.jpg" alt="voice icon">
-            </div>
-        </div>
+                <div>
+                    <fieldset id="fieldset">
+                        <legend>Name: </legend>
 
-        <p class="link"> 
-            <a class="link-g" href="#">Google Search</a>
-            <a class="link-f" href="#">I'm Feeling Lucky</a>
-        </p>
+                    <div class="first-input">
+                        <input type="text" name="name" id="name"><br>
+                        <span class="firstname" for="firstname">First name</span>
+                    </div>
 
-        <p class="languages">
-                Google offered in:
-                <a href="#">Hausa</a>
-                <a href="#">Igbo</a>
-                <a href="#">Èdè Yorùbá</a>
-                <a href="#">Nigerian Pidgin</a>
-            </p> 
-        </div>   
-    </main>
+                    <div class="second-input">
+                        <input type="text" name="name" id="name"><br>
+                        <span class="lastname" for="lastname">Last name</span><br>
+                    </div>
+                    </fieldset>
+                   
+                    <div class="form">
+                        <label for="email">Email Address:</label><br>
+                        <input type="email" name="email" id="email"><br>
+
+                        <label for="subject">Subject:</label><br>
+                        <input type="text" name="subject" id="subject"><br>
+
+                        <label for="message">Message:</label><br>
+                        <textarea name="message" id="message"></textarea><br>
+                        
+                        <button id="button" type="submit">Submit</button>
+                        
+                    </div>
+                </div>
+            </section>
+    </div>    
 </body>
-<footer>
-    <div>
-        <div class="nig">Nigeria</div>
-        <hr>
-        <!-- bottom left and right arrangements at footer-->
-        <span id="left-side">
-            <a href="#">Advertising</a>
-            <a href="#">Business</a>
-            <a href="#">About</a>
-            <a href="#">How Search works</a>
-        </span>
-        <span id="right-side">
-            <a href="#">Settings</a>
-            <a href="#">Terms</a>
-            <a href="#">Privacy</a>
-        </span>
-    </div>
-</footer>
 </html>
